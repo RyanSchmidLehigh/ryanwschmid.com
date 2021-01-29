@@ -1,6 +1,10 @@
 window.onload = function() {
     scrollHeader();
     navIndicator();
+    //remove loader
+    $("#loader-wrapper").fadeOut();
+    document.body.style.overflowY = "visible";
+    console.log("HEre");
 }
 
 window.onscroll = function() {
